@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+* {
+    font-family: Karla;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(148, 38%, 91%);
+}
+
+input {
+    margin-top: 5px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px
+}
+
+.formBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.formItem {
+    width: 600px;
+    height: 660px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+}
+
+.formItem h1 {
+    font-weight: 700;
+    color: hsl(187, 24%, 22%);
+    font-size: 30px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.nameForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nameInput input {
+    width: 280px;
+    height: 35px;
+}
+    
+.emailInput input {
+    width: 595px;
+    height: 35px;
+}
+
+.formInput {
+    margin-top: 25px;
+}
+
+.queryInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.queryInput .radio {
+    width: 280px;
+    height: 35px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.messageInput textarea {
+    width: 595px;
+    height: 70px;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px
+}
+
+button {
+    width: 595px;
+    height: 50px;
+    background-color: hsl(169, 82%, 27%);
+    margin-top: 25px;
+    border: 1px solid hsl(169, 82%, 27%);
+    border-radius: 5px
+}
+
+.attribution {
+    margin-top: 50px;
+     font-size: 11px; 
+     text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
