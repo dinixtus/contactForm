@@ -246,4 +246,7 @@ button:hover {
     .queryInput label {
         margin-top: 10px;
     }
+    .own-alert {
+        width: 300px;
+    }
 }
