@@ -73,8 +73,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             errorText[6].style.display = 'none';
         }
 
-
-        // Проверка обоих полей на корректность ввода
         if (mname.value.trim() !== '' && regex.test(mname.value.trim()) &&
             lname.value.trim() !== '' && regex.test(lname.value.trim()) &&
             email.value.trim() !== '' && email.value.includes('@') &&
