@@ -39,7 +39,7 @@ label {
 }
 
 .formItem {
-    width: 600px;
+    max-width: 600px;
     min-height: 660px;
     background-color: hsl(0, 0%, 100%);
     padding: 15px 30px 15px 30px;
@@ -223,4 +223,27 @@ button:hover {
     border: solid white;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg); top: 1; 
+}
+
+@media (max-width: 674px) {
+
+    * {
+        font-size: 14px;
+    }
+    .formItem {
+        width: 320px;
+        min-height: 770px;
+    }
+    .nameForm {
+        display: block;
+    }
+    .nameInput input, .emailInput input, .messageInput textarea, button {
+        width: 300px;
+    }
+    .queryInput {
+        display: block;
+    }
+    .queryInput label {
+        margin-top: 10px;
+    }
 }
